@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAB1A58A20666F4D00D9F187 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1A58920666F4D00D9F187 /* PlayerNode.swift */; };
+		EAB1A58C2066720F00D9F187 /* idleNinja.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EAB1A58B2066720F00D9F187 /* idleNinja.atlas */; };
 		EACC084920665BD500AF4BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC084820665BD500AF4BBA /* AppDelegate.swift */; };
 		EACC084B20665BD500AF4BBA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EACC084A20665BD500AF4BBA /* GameScene.sks */; };
 		EACC084F20665BD500AF4BBA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC084E20665BD500AF4BBA /* GameScene.swift */; };
@@ -15,7 +17,6 @@
 		EACC085920665BD500AF4BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC085720665BD500AF4BBA /* LaunchScreen.storyboard */; };
 		EACC086420665BD500AF4BBA /* BombaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC086320665BD500AF4BBA /* BombaTests.swift */; };
 		EACC086F20665BD500AF4BBA /* BombaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC086E20665BD500AF4BBA /* BombaUITests.swift */; };
-		EACC087F20666AA800AF4BBA /* NinjaAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACC087E20666AA800AF4BBA /* NinjaAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EAB1A58920666F4D00D9F187 /* PlayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		EAB1A58B2066720F00D9F187 /* idleNinja.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = idleNinja.atlas; sourceTree = "<group>"; };
 		EACC084520665BD500AF4BBA /* Bomba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bomba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC084820665BD500AF4BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EACC084A20665BD500AF4BBA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -50,7 +53,6 @@
 		EACC086A20665BD500AF4BBA /* BombaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC086E20665BD500AF4BBA /* BombaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombaUITests.swift; sourceTree = "<group>"; };
 		EACC087020665BD500AF4BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EACC087E20666AA800AF4BBA /* NinjaAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NinjaAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +144,8 @@
 		EACC087D20666A8400AF4BBA /* Ninja */ = {
 			isa = PBXGroup;
 			children = (
-				EACC087E20666AA800AF4BBA /* NinjaAssets.xcassets */,
+				EAB1A58B2066720F00D9F187 /* idleNinja.atlas */,
+				EAB1A58920666F4D00D9F187 /* PlayerNode.swift */,
 			);
 			path = Ninja;
 			sourceTree = "<group>";
@@ -255,9 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACC084B20665BD500AF4BBA /* GameScene.sks in Resources */,
+				EAB1A58C2066720F00D9F187 /* idleNinja.atlas in Resources */,
 				EACC085620665BD500AF4BBA /* Assets.xcassets in Resources */,
 				EACC085920665BD500AF4BBA /* LaunchScreen.storyboard in Resources */,
-				EACC087F20666AA800AF4BBA /* NinjaAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +287,7 @@
 			files = (
 				EACC084F20665BD500AF4BBA /* GameScene.swift in Sources */,
 				EACC085120665BD500AF4BBA /* GameViewController.swift in Sources */,
+				EAB1A58A20666F4D00D9F187 /* PlayerNode.swift in Sources */,
 				EACC084920665BD500AF4BBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
