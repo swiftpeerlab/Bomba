@@ -15,6 +15,7 @@
 		EACC085920665BD500AF4BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC085720665BD500AF4BBA /* LaunchScreen.storyboard */; };
 		EACC086420665BD500AF4BBA /* BombaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC086320665BD500AF4BBA /* BombaTests.swift */; };
 		EACC086F20665BD500AF4BBA /* BombaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC086E20665BD500AF4BBA /* BombaUITests.swift */; };
+		EACC087F20666AA800AF4BBA /* NinjaAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACC087E20666AA800AF4BBA /* NinjaAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EACC086A20665BD500AF4BBA /* BombaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC086E20665BD500AF4BBA /* BombaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombaUITests.swift; sourceTree = "<group>"; };
 		EACC087020665BD500AF4BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACC087E20666AA800AF4BBA /* NinjaAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NinjaAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EACC084720665BD500AF4BBA /* Bomba */ = {
 			isa = PBXGroup;
 			children = (
+				EACC087D20666A8400AF4BBA /* Ninja */,
 				EACC087C2066616700AF4BBA /* Supporting Files */,
 				EACC084A20665BD500AF4BBA /* GameScene.sks */,
 				EACC084E20665BD500AF4BBA /* GameScene.swift */,
@@ -134,6 +137,14 @@
 				EACC085A20665BD500AF4BBA /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EACC087D20666A8400AF4BBA /* Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				EACC087E20666AA800AF4BBA /* NinjaAssets.xcassets */,
+			);
+			path = Ninja;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 				EACC084B20665BD500AF4BBA /* GameScene.sks in Resources */,
 				EACC085620665BD500AF4BBA /* Assets.xcassets in Resources */,
 				EACC085920665BD500AF4BBA /* LaunchScreen.storyboard in Resources */,
+				EACC087F20666AA800AF4BBA /* NinjaAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
